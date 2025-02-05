@@ -52,9 +52,3 @@ Both clustering methods successfully identified the districts and neighborhoods 
 - **Stare Miasto**, **Kazimierz**, and **Kleparz** are among the areas with the highest density of recorded offenses.
 - **HDBSCAN** was more adaptable and better at identifying stable clusters in varying density zones.
 - **DBSCAN** was effective when the parameters (`eps` and `minPts`) were fine-tuned for specific areas.
-
-
-You can install these libraries using the following commands:
-
-```r
-install.packages(c("sf", "ggplot2", "dbscan", "dplyr", "RColorBrewer"))
